@@ -1,0 +1,102 @@
+/*Mobile first*/
+body {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 1.2;
+  height: 100%;
+}
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 190%;
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+  }
+   h4 {
+    font-size: 200%;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%)
+  }
+  h2 {
+    font-size: 130%;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%)
+  }
+  h3, p {
+color: hsl(229, 6%, 66%);
+font-weight:400;
+  }
+  img {
+    display: block;
+    width: 15%;
+    margin-left: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  footer {
+		width:90%;
+		height:60px;		/* Wysokość stopki */
+		text-align: center;
+    margin: auto;
+    padding-top: 20px;
+	}
+  /********class selector********/
+  .page {
+    width: 90%;
+    min-height: 100%;
+    margin: auto;
+    position: relative;
+    padding-bottom: 80px;
+    }
+  .first, .second-one, .second-two, .third {
+    width: 90%;
+    border-radius: 3%;
+    padding: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    box-shadow: 5px 10px 10px hsl(229, 6%, 66%);
+  }
+  .first {
+    border-top: solid 5px hsl(180, 62%, 55%);
+  }
+  .second-one {
+    border-top: solid 5px hsl(0, 78%, 62%);
+  }
+  .second-two {
+    border-top: solid 5px hsl(34, 97%, 64%);
+  }
+  .third {
+    border-top: solid 5px hsl(212, 86%, 64%);
+  }
+/************************Media quieries******************/
+@media screen and (min-width: 600px) {
+	/* Okno przeglądarki o szerokości maksymalnej 600px*/
+header {
+  width: 50%;
+  margin: auto;
+}
+  /********class selector********/
+.page {
+  width: 80%;
+  min-height: 100%;
+}
+.div-first, .div-second, .div-third {
+  width: 33.333%;
+}
+.first, .second-one, .second-two, .third{
+  width: 80%;
+}
+.cointainer{
+  display: flex;
+  overflow: hidden;
+  justify-content: space-around;
+  align-items: center;
+}}
