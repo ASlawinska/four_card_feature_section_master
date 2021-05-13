@@ -1,3 +1,8 @@
+# Repository based on Frontend Mentor - Four card feature section
+Statu: finished 
+
+Below You see the detailed description of exercises.
+
 # Frontend Mentor - Four card feature section
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
